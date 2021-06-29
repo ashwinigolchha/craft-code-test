@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: acc7548f-3022-405c-b653-2c8760879e60 # Common
+handle: imageWithText
+instructions: ''
+name: 'Image with Text'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_imagewithtext}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

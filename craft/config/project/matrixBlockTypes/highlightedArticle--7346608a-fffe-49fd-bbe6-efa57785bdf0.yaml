@@ -1,0 +1,42 @@
+field: f0b26b60-9cd6-415f-928f-c63614f6e7b8 # Content Builder
+fieldLayouts:
+  07d75d4d-e229-457b-870d-914abaa59bc6:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 709d71e0-6fd6-41c8-b407-527b866465d0 # Article
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  709d71e0-6fd6-41c8-b407-527b866465d0: # Article
+    contentColumnType: string
+    fieldGroup: null
+    handle: article
+    instructions: ''
+    name: Article
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: highlightedArticle
+name: 'Highlighted Article'
+sortOrder: 2

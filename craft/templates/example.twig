@@ -1,0 +1,16 @@
+{% import "components/contentBuilder" as macros %}
+{% extends "_layout" %}
+
+{% block hero %}
+    <header class="masthead text-center mt-5 mb-5">
+        <div class="masthead-content">
+            <div class="container px-5">
+                <h1 class="masthead-heading mb-0">Content Builder Example</h1>
+            </div>
+        </div>
+    </header>
+{% endblock %}
+
+{% block content %}
+    {{ macros.renderContentBuilder(entry.contentBuilder) }}
+{% endblock %}

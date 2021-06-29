@@ -1,0 +1,9 @@
+format: null
+handle: profilePhoto
+height: 250
+interlace: none
+mode: crop
+name: 'Profile Photo'
+position: center-center
+quality: 30
+width: 250

@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'Craft Code Test'
+primary: true
+siteGroup: 8a59f26c-cff0-43ce-8f8c-389421035f87 # Craft Code Test
+sortOrder: 1

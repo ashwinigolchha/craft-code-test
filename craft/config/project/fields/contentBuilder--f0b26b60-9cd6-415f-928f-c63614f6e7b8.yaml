@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: acc7548f-3022-405c-b653-2c8760879e60 # Common
+handle: contentBuilder
+instructions: ''
+name: 'Content Builder'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_contentbuilder}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

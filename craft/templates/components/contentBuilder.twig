@@ -1,0 +1,47 @@
+{##
+ #  The Content Builder macro outputs blocks of stylized content from a craft Matrix field.
+ #
+ #  @param blocks
+ #      The craft field to pull content from. (e.g. "entry.contentBuilder")
+ #
+ #}
+ {% macro renderContentBuilder(blocks) %}
+    {% import _self as macros %}
+    {% for block in blocks.all() %}
+        {% switch block.type %}
+            {% case "richtext" %}
+                <section class="richtext">
+                    <div class="container px-5 mt-5 mb-5">
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-lg-12">
+                                {{ block.text }}
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            {% case "highlightedArticle" %}
+                <section class="highlighted-article">
+                    <div class="container px-5 mt-5 mb-5">
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-lg-12">
+                                <h4>Featured Article</h4>
+                                <ul>
+                                    <li><a href="{{ block.article.url }}">{{ block.article.title }}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            {% case "videoEmbed" %}
+                <section class="video-embed">
+                    <div class="container px-5 mt-5 mb-5">
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-lg-12">
+                                {{ block.embed|raw }}
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        {% endswitch %}
+    {% endfor %}
+{% endmacro %}

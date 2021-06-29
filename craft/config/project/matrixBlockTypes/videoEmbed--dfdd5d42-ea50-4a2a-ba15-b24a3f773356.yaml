@@ -1,0 +1,40 @@
+field: f0b26b60-9cd6-415f-928f-c63614f6e7b8 # Content Builder
+fieldLayouts:
+  ba2c1099-179f-4309-b345-f6f3776a2388:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a2aab963-b865-46cb-989b-eb68564777e1 # Embed
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  a2aab963-b865-46cb-989b-eb68564777e1: # Embed
+    contentColumnType: text
+    fieldGroup: null
+    handle: embed
+    instructions: ''
+    name: Embed
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: videoEmbed
+name: 'Video Embed'
+sortOrder: 3

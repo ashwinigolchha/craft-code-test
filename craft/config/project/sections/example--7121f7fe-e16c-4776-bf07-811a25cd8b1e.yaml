@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: example
+name: Example
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9eb17f17-fb0c-4688-aaff-a09782aeacea: # Craft Code Test
+    enabledByDefault: true
+    hasUrls: true
+    template: example
+    uriFormat: example
+type: single
