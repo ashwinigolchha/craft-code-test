@@ -1,0 +1,76 @@
+fieldLayouts:
+  376d30a5-e009-4035-8887-2fdce04cd82d:
+    tabs:
+      -
+        elements:
+          -
+            template: null
+            type: craft\fieldlayoutelements\Template
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            heading: null
+            type: craft\fieldlayoutelements\Heading
+          -
+            fieldUid: 1bbbd3b6-8526-433d-b7a1-74b5bd094c7c # First Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+          -
+            fieldUid: 5e38f338-d0a4-4fa3-bfd5-9b494d31a442 # Last Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+          -
+            fieldUid: 0c93d9fd-ac15-4c59-988d-36af9f3f6527 # Profile Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: new_employees
+hasTitleField: false
+name: NewEmployees
+section: cc7b6c50-7a1c-4169-a014-ed8976aa0170 # Employees
+sortOrder: 2
+titleFormat: '{firstName}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
