@@ -9,25 +9,16 @@ mix.options({
     clearConsole: Mix.isWatching()
 });
 
-// Extra Webpack Config
-mix.webpackConfig({
-    module: {
-        rules: [
-            {
-                test: /\.scss$/,
-                loader: 'import-glob-loader',
-            },
-        ],
-    },
 
+
+// Asset Config
+mix.webpackConfig({
     watchOptions: {
         poll: Mix.isPolling() ? 1700 : false,
         aggregateTimeout: 600,
-        ignored: [ /^(?!.*resources)/ ]
     },
 });
 
-// Asset Config
 
 let getFiles = function (dir) {
     return fs.readdirSync(dir).filter(file => {

@@ -38,7 +38,7 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 handle: example
-hasTitleField: false
+hasTitleField: true
 name: Example
 section: 7121f7fe-e16c-4776-bf07-811a25cd8b1e # Example
 sortOrder: 1

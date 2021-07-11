@@ -1,0 +1,26 @@
+enableVersioning: true
+handle: employees
+name: Employees
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9eb17f17-fb0c-4688-aaff-a09782aeacea: # Craft Code Test
+    enabledByDefault: true
+    hasUrls: true
+    template: employees/_entry
+    uriFormat: 'employees/{slug}'
+structure:
+  maxLevels: 1
+  uid: a0039619-751d-467b-8074-2a4685f84b86
+type: structure

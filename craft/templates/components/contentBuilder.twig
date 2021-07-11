@@ -26,7 +26,13 @@
                             <div class="col-lg-12">
                                 <h4>Featured Article</h4>
                                 <ul>
-                                    <li><a href="{{ block.article.url }}">{{ block.article.title }}</a></li>
+                                    {%  for article in block.article.all()  %}
+                                        <li>
+                                            <a href="{{ article.url }}">
+                                                {{ article.title }}
+                                            </a>
+                                        </li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
